@@ -1,0 +1,9 @@
+F:\suxin\个人项目\GitWork\ProtectingApiByIdentityServer\ProtectingApiByIdentityServer\Pai.AuthorizationServer\bin\Debug\netcoreapp1.1\Pai.AuthorizationServer.deps.json
+F:\suxin\个人项目\GitWork\ProtectingApiByIdentityServer\ProtectingApiByIdentityServer\Pai.AuthorizationServer\bin\Debug\netcoreapp1.1\Pai.AuthorizationServer.runtimeconfig.json
+F:\suxin\个人项目\GitWork\ProtectingApiByIdentityServer\ProtectingApiByIdentityServer\Pai.AuthorizationServer\bin\Debug\netcoreapp1.1\Pai.AuthorizationServer.runtimeconfig.dev.json
+F:\suxin\个人项目\GitWork\ProtectingApiByIdentityServer\ProtectingApiByIdentityServer\Pai.AuthorizationServer\bin\Debug\netcoreapp1.1\Pai.AuthorizationServer.dll
+F:\suxin\个人项目\GitWork\ProtectingApiByIdentityServer\ProtectingApiByIdentityServer\Pai.AuthorizationServer\obj\Debug\netcoreapp1.1\Pai.AuthorizationServer.csprojResolveAssemblyReference.cache
+F:\suxin\个人项目\GitWork\ProtectingApiByIdentityServer\ProtectingApiByIdentityServer\Pai.AuthorizationServer\obj\Debug\netcoreapp1.1\Pai.AuthorizationServer.AssemblyInfo.cs
+F:\suxin\个人项目\GitWork\ProtectingApiByIdentityServer\ProtectingApiByIdentityServer\Pai.AuthorizationServer\bin\Debug\netcoreapp1.1\Pai.AuthorizationServer.pdb
+F:\suxin\个人项目\GitWork\ProtectingApiByIdentityServer\ProtectingApiByIdentityServer\Pai.AuthorizationServer\obj\Debug\netcoreapp1.1\Pai.AuthorizationServer.dll
+F:\suxin\个人项目\GitWork\ProtectingApiByIdentityServer\ProtectingApiByIdentityServer\Pai.AuthorizationServer\obj\Debug\netcoreapp1.1\Pai.AuthorizationServer.pdb
