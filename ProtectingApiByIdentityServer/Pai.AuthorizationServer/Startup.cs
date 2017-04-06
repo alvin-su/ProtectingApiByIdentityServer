@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
+using System.Text;
 
 namespace Pai.AuthorizationServer
 {
@@ -26,6 +27,8 @@ namespace Pai.AuthorizationServer
         public void Configure(IApplicationBuilder app, IHostingEnvironment env, ILoggerFactory loggerFactory)
         {
             loggerFactory.AddConsole();
+
+            Encoding.RegisterProvider(CodePagesEncodingProvider.Instance);
 
             app.UseIdentityServer();
 
