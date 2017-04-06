@@ -9,3 +9,6 @@
 ################################################################################
 
 /ProtectingApiByIdentityServer/Pai.WebApi/obj/Pai.WebApi.csproj.codegeneration.targets
+/ProtectingApiByIdentityServer/.vs
+/ProtectingApiByIdentityServer/Pai.WebApi/obj
+/ProtectingApiByIdentityServer/Pai.WebApi/bin
