@@ -2,3 +2,5 @@
 /ProtectingApiByIdentityServer/.vs
 /ProtectingApiByIdentityServer/Pai.AuthorizationServer/obj
 /ProtectingApiByIdentityServer/Pai.AuthorizationServer/bin
+/ProtectingApiByIdentityServer/Pai.WebApi/bin
+/ProtectingApiByIdentityServer/Pai.WebApi/obj

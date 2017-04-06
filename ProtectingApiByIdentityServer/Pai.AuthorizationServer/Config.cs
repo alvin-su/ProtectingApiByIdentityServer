@@ -12,7 +12,7 @@ namespace Pai.AuthorizationServer
         {
             return new List<ApiResource>
             {
-                new ApiResource("MyApi1", "My API V1")
+                new ApiResource("MyApi1", "MyApiController")
             };
         }
 
@@ -36,6 +36,7 @@ namespace Pai.AuthorizationServer
                         new Secret("ConsoleSecret".Sha256())
                     },
 
+                     // client可以访问的资源，在上面定义的。
                     // scopes that client has access to
                     AllowedScopes = { "MyApi1" }
                 }

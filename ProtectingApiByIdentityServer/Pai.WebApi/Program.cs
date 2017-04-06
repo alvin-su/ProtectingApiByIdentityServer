@@ -13,6 +13,7 @@ namespace Pai.WebApi
         public static void Main(string[] args)
         {
             var host = new WebHostBuilder()
+                .UseUrls("http://localhost:5301")
                 .UseKestrel()
                 .UseContentRoot(Directory.GetCurrentDirectory())
                 .UseIISIntegration()
