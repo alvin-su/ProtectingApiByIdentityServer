@@ -4,13 +4,8 @@
 /ProtectingApiByIdentityServer/Pai.AuthorizationServer/bin
 /ProtectingApiByIdentityServer/Pai.WebApi/bin
 /ProtectingApiByIdentityServer/Pai.WebApi/obj
-/ProtectingApiByIdentityServer/Pai.ConsoleClient/bin
-/ProtectingApiByIdentityServer/Pai.ConsoleClient/obj
 ################################################################################
 # 此 .gitignore 文件已由 Microsoft(R) Visual Studio 自动创建。
 ################################################################################
 
 /ProtectingApiByIdentityServer/Pai.WebApi/obj/Pai.WebApi.csproj.codegeneration.targets
-/ProtectingApiByIdentityServer/.vs
-/ProtectingApiByIdentityServer/Pai.WebApi/obj
-/ProtectingApiByIdentityServer/Pai.WebApi/bin
