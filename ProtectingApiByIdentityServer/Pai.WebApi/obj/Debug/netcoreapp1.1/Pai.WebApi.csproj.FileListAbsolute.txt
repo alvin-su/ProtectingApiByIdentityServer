@@ -1,9 +1,0 @@
-F:\suxin\个人项目\GitWork\ProtectingApiByIdentityServer\ProtectingApiByIdentityServer\Pai.WebApi\bin\Debug\netcoreapp1.1\Pai.WebApi.deps.json
-F:\suxin\个人项目\GitWork\ProtectingApiByIdentityServer\ProtectingApiByIdentityServer\Pai.WebApi\bin\Debug\netcoreapp1.1\Pai.WebApi.runtimeconfig.json
-F:\suxin\个人项目\GitWork\ProtectingApiByIdentityServer\ProtectingApiByIdentityServer\Pai.WebApi\bin\Debug\netcoreapp1.1\Pai.WebApi.runtimeconfig.dev.json
-F:\suxin\个人项目\GitWork\ProtectingApiByIdentityServer\ProtectingApiByIdentityServer\Pai.WebApi\bin\Debug\netcoreapp1.1\Pai.WebApi.dll
-F:\suxin\个人项目\GitWork\ProtectingApiByIdentityServer\ProtectingApiByIdentityServer\Pai.WebApi\obj\Debug\netcoreapp1.1\Pai.WebApi.csprojResolveAssemblyReference.cache
-F:\suxin\个人项目\GitWork\ProtectingApiByIdentityServer\ProtectingApiByIdentityServer\Pai.WebApi\obj\Debug\netcoreapp1.1\Pai.WebApi.AssemblyInfo.cs
-F:\suxin\个人项目\GitWork\ProtectingApiByIdentityServer\ProtectingApiByIdentityServer\Pai.WebApi\bin\Debug\netcoreapp1.1\Pai.WebApi.pdb
-F:\suxin\个人项目\GitWork\ProtectingApiByIdentityServer\ProtectingApiByIdentityServer\Pai.WebApi\obj\Debug\netcoreapp1.1\Pai.WebApi.dll
-F:\suxin\个人项目\GitWork\ProtectingApiByIdentityServer\ProtectingApiByIdentityServer\Pai.WebApi\obj\Debug\netcoreapp1.1\Pai.WebApi.pdb
