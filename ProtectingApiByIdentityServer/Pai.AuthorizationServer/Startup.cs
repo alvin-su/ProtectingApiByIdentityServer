@@ -16,12 +16,18 @@ namespace Pai.AuthorizationServer
         // For more information on how to configure your application, visit https://go.microsoft.com/fwlink/?LinkID=398940
         public void ConfigureServices(IServiceCollection services)
         {
+                services.AddIdentityServer()
+                   .AddTemporarySigningCredential()
+                   .AddInMemoryApiResources(Config.GetApiResources())
+                   .AddInMemoryClients(Config.GetClients());
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IHostingEnvironment env, ILoggerFactory loggerFactory)
         {
             loggerFactory.AddConsole();
+
+            app.UseIdentityServer();
 
             if (env.IsDevelopment())
             {
@@ -30,7 +36,7 @@ namespace Pai.AuthorizationServer
 
             app.Run(async (context) =>
             {
-                await context.Response.WriteAsync("Hello World!");
+                await context.Response.WriteAsync("RestFul Api 授权认证中心 For IdentityServer4");
             });
         }
     }

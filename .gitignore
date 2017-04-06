@@ -1,0 +1,4 @@
+/.vs
+/ProtectingApiByIdentityServer/.vs
+/ProtectingApiByIdentityServer/Pai.AuthorizationServer/obj
+/ProtectingApiByIdentityServer/Pai.AuthorizationServer/bin

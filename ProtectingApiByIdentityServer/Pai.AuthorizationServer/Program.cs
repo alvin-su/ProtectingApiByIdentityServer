@@ -12,6 +12,7 @@ namespace Pai.AuthorizationServer
         public static void Main(string[] args)
         {
             var host = new WebHostBuilder()
+                .UseUrls("http://localhost:5300")
                 .UseKestrel()
                 .UseContentRoot(Directory.GetCurrentDirectory())
                 .UseIISIntegration()
