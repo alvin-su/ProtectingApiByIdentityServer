@@ -1,0 +1,14 @@
+F:\suxin\个人项目\GitWork\ProtectingApiByIdentityServer\ProtectingApiByIdentityServer\Pai.ConsoleClient\bin\Debug\Pai.ConsoleClient.exe.config
+F:\suxin\个人项目\GitWork\ProtectingApiByIdentityServer\ProtectingApiByIdentityServer\Pai.ConsoleClient\bin\Debug\Pai.ConsoleClient.exe
+F:\suxin\个人项目\GitWork\ProtectingApiByIdentityServer\ProtectingApiByIdentityServer\Pai.ConsoleClient\bin\Debug\Pai.ConsoleClient.pdb
+F:\suxin\个人项目\GitWork\ProtectingApiByIdentityServer\ProtectingApiByIdentityServer\Pai.ConsoleClient\bin\Debug\IdentityModel.dll
+F:\suxin\个人项目\GitWork\ProtectingApiByIdentityServer\ProtectingApiByIdentityServer\Pai.ConsoleClient\bin\Debug\Newtonsoft.Json.dll
+F:\suxin\个人项目\GitWork\ProtectingApiByIdentityServer\ProtectingApiByIdentityServer\Pai.ConsoleClient\bin\Debug\System.Net.Http.dll
+F:\suxin\个人项目\GitWork\ProtectingApiByIdentityServer\ProtectingApiByIdentityServer\Pai.ConsoleClient\bin\Debug\System.Security.Cryptography.Algorithms.dll
+F:\suxin\个人项目\GitWork\ProtectingApiByIdentityServer\ProtectingApiByIdentityServer\Pai.ConsoleClient\bin\Debug\System.Security.Cryptography.Encoding.dll
+F:\suxin\个人项目\GitWork\ProtectingApiByIdentityServer\ProtectingApiByIdentityServer\Pai.ConsoleClient\bin\Debug\System.Security.Cryptography.Primitives.dll
+F:\suxin\个人项目\GitWork\ProtectingApiByIdentityServer\ProtectingApiByIdentityServer\Pai.ConsoleClient\bin\Debug\System.Security.Cryptography.X509Certificates.dll
+F:\suxin\个人项目\GitWork\ProtectingApiByIdentityServer\ProtectingApiByIdentityServer\Pai.ConsoleClient\bin\Debug\IdentityModel.xml
+F:\suxin\个人项目\GitWork\ProtectingApiByIdentityServer\ProtectingApiByIdentityServer\Pai.ConsoleClient\bin\Debug\Newtonsoft.Json.xml
+F:\suxin\个人项目\GitWork\ProtectingApiByIdentityServer\ProtectingApiByIdentityServer\Pai.ConsoleClient\obj\Debug\Pai.ConsoleClient.exe
+F:\suxin\个人项目\GitWork\ProtectingApiByIdentityServer\ProtectingApiByIdentityServer\Pai.ConsoleClient\obj\Debug\Pai.ConsoleClient.pdb

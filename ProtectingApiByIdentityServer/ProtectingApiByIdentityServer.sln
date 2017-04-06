@@ -7,6 +7,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pai.AuthorizationServer", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pai.WebApi", "Pai.WebApi\Pai.WebApi.csproj", "{A56E6CE3-0EC0-4F1E-B8E1-2572755F3A15}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pai.ConsoleClient", "Pai.ConsoleClient\Pai.ConsoleClient.csproj", "{1CCD7A3C-04C8-41A3-8BF8-4CD737B5C99B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01.AuthorizationServer", "01.AuthorizationServer", "{4909D2AD-F0B3-46BC-B4EA-4CFC819E87E2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02.WebApi", "02.WebApi", "{07E5856F-09EA-4FC2-80CD-5A866B5FDE1A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03.Client", "03.Client", "{96170FE6-F25B-4CE1-843B-C1C82D6CF99B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,8 +29,17 @@ Global
 		{A56E6CE3-0EC0-4F1E-B8E1-2572755F3A15}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A56E6CE3-0EC0-4F1E-B8E1-2572755F3A15}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A56E6CE3-0EC0-4F1E-B8E1-2572755F3A15}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1CCD7A3C-04C8-41A3-8BF8-4CD737B5C99B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CCD7A3C-04C8-41A3-8BF8-4CD737B5C99B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CCD7A3C-04C8-41A3-8BF8-4CD737B5C99B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CCD7A3C-04C8-41A3-8BF8-4CD737B5C99B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3580B696-8D17-46E2-A4D9-ABB979D8C794} = {4909D2AD-F0B3-46BC-B4EA-4CFC819E87E2}
+		{A56E6CE3-0EC0-4F1E-B8E1-2572755F3A15} = {07E5856F-09EA-4FC2-80CD-5A866B5FDE1A}
+		{1CCD7A3C-04C8-41A3-8BF8-4CD737B5C99B} = {96170FE6-F25B-4CE1-843B-C1C82D6CF99B}
 	EndGlobalSection
 EndGlobal

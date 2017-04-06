@@ -42,8 +42,9 @@ namespace Pai.WebApi
             {
                 Authority = "http://localhost:5300",
                 RequireHttpsMetadata = false,
-            //    AllowedScopes=new List<string> { "MyApi1" },
-                ApiName= "MyApi1"
+                AllowedScopes=new List<string> { "MyApi1" }
+               
+               // ApiName= "MyApi1"
             });
 
             app.UseMvc();

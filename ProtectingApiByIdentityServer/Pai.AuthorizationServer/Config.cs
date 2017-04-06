@@ -12,8 +12,11 @@ namespace Pai.AuthorizationServer
         {
             return new List<ApiResource>
             {
-                new ApiResource("MyApi1", "MyApiController")
+              
+                new ApiResource("MyApi1", "MyApiController"),
+                new ApiResource("values","ValuesController")
             };
+
         }
 
         public static IEnumerable<Client> GetClients()
@@ -27,7 +30,7 @@ namespace Pai.AuthorizationServer
                       //使用clientid / secret进行身份验证 OAuth2.0的客户端模式
                     AllowedGrantTypes = GrantTypes.ClientCredentials,
 
-                    AccessTokenLifetime=2, //token有效期,设置为2个小时，默认1个小时 3600秒
+                    AccessTokenLifetime=7200, //token有效期,设置默认2个小时 7200秒
 
                     
                      // 加密验证
