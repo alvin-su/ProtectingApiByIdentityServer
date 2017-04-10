@@ -12,3 +12,6 @@
 /ProtectingApiByIdentityServer/.vs
 /ProtectingApiByIdentityServer/Pai.WebApi/obj
 /ProtectingApiByIdentityServer/Pai.WebApi/bin
+/ProtectingApiByIdentityServer/Pai.ConsoleClient
+/ProtectingApiByIdentityServer/Pai.ConsoleClient
+/ProtectingApiByIdentityServer/Pai.ConsoleClient/bin/Debug
