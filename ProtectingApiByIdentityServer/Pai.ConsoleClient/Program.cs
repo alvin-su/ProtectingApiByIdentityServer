@@ -18,7 +18,7 @@ namespace Pai.ConsoleClient
 
             // request token
             var tokenClient = new TokenClient(disco.TokenEndpoint, "ConsoleClient", "ConsoleSecret");
-            var tokenResponse =  tokenClient.RequestClientCredentialsAsync("MyApi1").Result;
+            var tokenResponse =  tokenClient.RequestClientCredentialsAsync("MyTest").Result;
 
             if (tokenResponse.IsError)
             {
@@ -33,9 +33,9 @@ namespace Pai.ConsoleClient
             var client = new HttpClient();
             client.SetBearerToken(tokenResponse.AccessToken);
 
-            var response = client.GetAsync("http://localhost:5301/api/values").Result;
+           // var response = client.GetAsync("http://localhost:5301/api/values").Result;
 
-           // var response = client.GetAsync("http://localhost:5301/api/myapi1").Result;
+            var response = client.GetAsync("http://localhost:5301/api/myapi1").Result;
 
             string content = "";
             if (!response.IsSuccessStatusCode)

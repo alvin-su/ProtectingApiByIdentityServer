@@ -28,7 +28,9 @@ namespace Pai.WebApi
         public void ConfigureServices(IServiceCollection services)
         {
             // Add framework services.
-            services.AddMvc();
+          //  services.AddMvc();
+
+            services.AddMvcCore().AddAuthorization().AddJsonFormatters();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -42,8 +44,8 @@ namespace Pai.WebApi
             {
                 Authority = "http://localhost:5300",
                 RequireHttpsMetadata = false,
-                AllowedScopes=new List<string> { "MyApi1" }
-               
+                AllowedScopes=new List<string> { "MyApi1", "MyTest" },
+                 
                // ApiName= "MyApi1"
             });
 

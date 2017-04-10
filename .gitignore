@@ -4,3 +4,5 @@
 /ProtectingApiByIdentityServer/Pai.AuthorizationServer/bin
 /ProtectingApiByIdentityServer/Pai.WebApi/bin
 /ProtectingApiByIdentityServer/Pai.WebApi/obj
+/ProtectingApiByIdentityServer/Pai.ConsoleClient/bin
+/ProtectingApiByIdentityServer/Pai.ConsoleClient/obj

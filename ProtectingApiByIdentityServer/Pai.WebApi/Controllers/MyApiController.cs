@@ -11,7 +11,7 @@ namespace Pai.WebApi.Controllers
 {
     [Authorize]
     [Produces("application/json")]
-    public class MyApiController : Controller
+    public class MyApiController : ControllerBase
     {
         [HttpGet]
         [Route("api/myapi1")]

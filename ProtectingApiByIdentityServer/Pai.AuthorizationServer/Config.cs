@@ -8,15 +8,14 @@ namespace Pai.AuthorizationServer
 {
     public class Config
     {
+       
         public static IEnumerable<ApiResource> GetApiResources()
         {
             return new List<ApiResource>
             {
-              
                 new ApiResource("MyApi1", "MyApiController"),
-                new ApiResource("values","ValuesController")
+                new ApiResource("MyTest","ValuesController")
             };
-
         }
 
         public static IEnumerable<Client> GetClients()
@@ -32,7 +31,7 @@ namespace Pai.AuthorizationServer
 
                     AccessTokenLifetime=7200, //token有效期,设置默认2个小时 7200秒
 
-                    
+                   
                      // 加密验证
                     ClientSecrets =
                     {
@@ -41,7 +40,7 @@ namespace Pai.AuthorizationServer
 
                      // client可以访问的资源，在上面定义的。
                     // scopes that client has access to
-                    AllowedScopes = { "MyApi1" }
+                    AllowedScopes = { "MyApi1", "MyTest" }
                 }
             };
         }
